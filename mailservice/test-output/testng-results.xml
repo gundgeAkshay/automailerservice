@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-20T13:39:24Z" name="Default suite" finished-at="2021-09-20T13:40:26Z" duration-ms="62250">
+    <groups>
+    </groups>
+    <test started-at="2021-09-20T13:39:24Z" name="Default test" finished-at="2021-09-20T13:40:26Z" duration-ms="62250">
+      <class name="com.demoproject.MailTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.demoproject.MailTest@2f2bf0e2]" started-at="2021-09-20T19:09:24Z" name="springTestContextBeforeTestClass" finished-at="2021-09-20T19:09:24Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.demoproject.MailTest@2f2bf0e2]" started-at="2021-09-20T19:09:24Z" name="springTestContextPrepareTestInstance" finished-at="2021-09-20T19:09:26Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.demoproject.MailTest@2f2bf0e2]" started-at="2021-09-20T19:09:26Z" name="springTestContextBeforeTestMethod" finished-at="2021-09-20T19:09:26Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demoproject.MailTest.sample() throws javax.mail.MessagingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="sample()[pri:0, instance:com.demoproject.MailTest@2f2bf0e2]" started-at="2021-09-20T19:09:26Z" name="sample" finished-at="2021-09-20T19:10:26Z" duration-ms="59870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.demoproject.MailTest@2f2bf0e2]" started-at="2021-09-20T19:10:26Z" name="springTestContextAfterTestMethod" finished-at="2021-09-20T19:10:26Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demoproject.MailTest.sample() throws javax.mail.MessagingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.demoproject.MailTest@2f2bf0e2]" started-at="2021-09-20T19:10:26Z" name="springTestContextAfterTestClass" finished-at="2021-09-20T19:10:26Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.demoproject.MailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
